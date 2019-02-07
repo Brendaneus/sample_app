@@ -1,9 +1,13 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+# Like the currently supported version of ruby and rails,
+# the gems may be slightly newer than listed online.
+
 ruby '2.5.3'
 
 gem 'rails', '~> 5.2.2'
+gem 'bcrypt', '>= 3.1.12'
 gem 'bootstrap-sass'
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'

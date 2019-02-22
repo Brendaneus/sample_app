@@ -14,7 +14,7 @@ class ActiveSupport::TestCase
   end
 
   def log_in_as user
-  	sessionp[:user_id] = user.id
+  	session[:user_id] = user.id
   end
 end
 
